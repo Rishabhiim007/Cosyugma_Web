@@ -1,0 +1,175 @@
+body {
+    font-size: 2rem;
+    font-weight: bold;
+}
+p{
+    font-weight: 200;
+    
+}
+
+.navbar-container {
+    display: flex;
+    margin-top: -50px;
+    font-size: 2rem;
+    /* font-style: normal; */
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar-container span a {
+    text-decoration: none;
+    color: rgba(222, 8, 129, 0.997);
+    margin: 40px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 400px;
+    width: 400px;
+}
+
+#navbar-image-1 {
+    text-align: center;
+
+
+    width: 640px;
+    height: 320px;
+    border-radius: 50%;
+    background: rgba(172, 168, 163, 0.511);
+}
+
+#navbar-image-2 {
+    text-align: center;
+    width: 540px;
+    height: 420px;
+    margin-left: 30px;
+    border-radius: 10%;
+    background: rgba(172, 168, 163, 0.511);
+}
+
+.navbar-images {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.about-company {
+    margin-top: 10%;
+
+}
+
+.about-company-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 50px;
+    height: 60vh;
+
+}
+
+.about-company-image {
+
+    margin-top: -50px;
+    /* border: 2px solid black; */
+
+}
+
+.about-company-text {
+
+    width: 720px;
+    line-height: 3rem;
+}
+
+.about-company-image img {
+    margin-top: 0px;
+    /* height: 1000px;
+    width: 800px; */
+
+}
+
+.border-down {
+    margin: 100px;
+    padding-bottom: 100px;
+    border-bottom: 4px solid rgba(184, 40, 141, 0.971);
+}
+.meet-team{
+    margin-bottom: 10%;
+}
+.team-members-container{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonal{
+    height: 400px;
+    width: 600px;
+    background-color:rgb(192, 200, 200);
+    border: 2px solid black;
+    border-radius: 8%;
+}
+.product-portfolio{
+    margin-bottom: 10%;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-text{
+    height: 400px;
+    width: 600px;
+    background-color:rgb(192, 200, 200);
+    border: 2px solid black;
+    border-radius: 8%;
+}
+.company-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10%;
+
+}
+
+
+.contact-us-content{
+    border: 2px solid black;
+    background-color:rgb(226, 234, 234);
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+}
+.social-media-content{
+    border: 2px solid black;
+    background-color:rgb(226, 234, 234);
+    border-radius: 5%;
+    height: 300px;
+    width: 600px;
+    
+}
+.hiring-content{
+    border: 2px solid black;
+    background-color:rgb(226, 234, 234);
+    border-radius: 5%;
+    height: 300px;
+    width: 400px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+}
+.footer{
+    background-color: blueviolet;
+    height: 50vh;
+    display: flex;
+    
+    align-items: center;
+}
+.footer-company-name{
+    height: 300px;
+    width: 300px;
+    background-color:rgb(226, 234, 234);
+    border-radius: 5%;
+    margin-left: 3%;
+   
+}
