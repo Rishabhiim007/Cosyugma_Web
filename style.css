@@ -1,175 +1,433 @@
 body {
-    font-size: 2rem;
-    font-weight: bold;
-}
-p{
-    font-weight: 200;
-    
+  margin: 0;
+  padding: 0%;
+  font-size: 2rem;
 }
 
-.navbar-container {
-    display: flex;
-    margin-top: -50px;
-    font-size: 2rem;
-    /* font-style: normal; */
-    justify-content: space-around;
-    text-decoration: none;
-    align-items: center;
+div {
+  font-weight: bold;
 }
 
-.navbar-container span a {
-    text-decoration: none;
-    color: rgba(222, 8, 129, 0.997);
-    margin: 40px;
-    font-weight: bold;
+.team-member {
+  height: 400px;
+  width: 600px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 5%;
 }
 
-#logo {
-    height: 400px;
-    width: 400px;
+.text-center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
-#navbar-image-1 {
-    text-align: center;
+.meet-col {
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 640px;
-    height: 320px;
-    border-radius: 50%;
-    background: rgba(172, 168, 163, 0.511);
-}
-
-#navbar-image-2 {
-    text-align: center;
-    width: 540px;
-    height: 420px;
-    margin-left: 30px;
-    border-radius: 10%;
-    background: rgba(172, 168, 163, 0.511);
-}
-
-.navbar-images {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
 
 }
 
-.about-company {
-    margin-top: 10%;
+.meet-row {
+  display: flex;
 
+  justify-content: space-evenly;
+  margin: 0%;
+}
+
+.footer-div {
+  background-color: blueviolet;
+  height: 50vh;
+}
+
+section {
+  /* margin-bottom: 70px; */
+  margin: 20px 50px;
 }
 
 .about-company-content {
-    display: flex;
-    justify-content: space-around;
-    margin: 150px 50px;
-    height: 60vh;
-
-}
-
-.about-company-image {
-
-    margin-top: -50px;
-    /* border: 2px solid black; */
-
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .about-company-text {
+  width: 730px;
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  /* border: 2px solid black; */
 
-    width: 720px;
-    line-height: 3rem;
-}
-
-.about-company-image img {
-    margin-top: 0px;
-    /* height: 1000px;
-    width: 800px; */
+  text-align: left;
 
 }
 
-.border-down {
-    margin: 100px;
-    padding-bottom: 100px;
-    border-bottom: 4px solid rgba(184, 40, 141, 0.971);
+.company-info {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
 }
-.meet-team{
-    margin-bottom: 10%;
+
+.contact-us-content {
+  padding: 10px;
+  border-radius: 6%;
+  text-align: center;
+  background-color: rgb(208, 206, 206);
+  height: fit-content;
+  margin-top: 30%;
+  /* border: 2px solid black; */
 }
-.team-members-container{
-    display: flex;
-    justify-content: space-around;
+
+.social-media {
+  border: 2px solid black;
+
 }
-.testimonal{
-    height: 400px;
+
+.hiring-content {
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgb(208, 206, 206);
+  margin-top: 60%;
+  /* border: 2px solid black; */
+
+}
+
+.social-media-image {
+  height: 50px;
+  width: 50px;
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  word-break: break-all;
+  margin: 10px;
+
+
+}
+
+.social-media-links-container {
+  /* border: 2px solid black; */
+  padding: 10px;
+  border-radius: 10%;
+  background-color: rgb(208, 206, 206);
+}
+
+.social-media-link {
+  margin: 50px;
+
+
+
+}
+
+.social-media-link a {
+  display: flex;
+  /* justify-content:right; */
+  align-items: center;
+  align-content: center;
+}
+
+.heading-center {
+  text-align: center;
+}
+
+.oval-image {
+  height: 400px;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 206, 206);
+}
+
+.rectangle-content {
+  height: 400px;
+  width: 600px;
+  border: 2px solid black;
+  /* border-radius: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 206, 206);
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-buttons{
+  /* padding: 9%; */
+  /* margin-left: 4%; */
+  
+margin-left: 100px;
+/* border: 2px solid black; */
+}
+.navbar-buttons a{
+  color: rgb(234, 63, 120);
+}
+.navbar-logo img{
+  height: 150px;
+  width: 400px;
+  /* border: 2px solid black; */
+}
+.navbar-container{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 2%;
+}
+
+
+
+
+
+@media only screen and (max-width: 2000px) {
+  .about-company-logo img {
+    height: 600px;
+    width: 800px;
+  }
+
+  .about-company-text {
     width: 600px;
-    background-color:rgb(192, 200, 200);
-    border: 2px solid black;
-    border-radius: 8%;
-}
-.product-portfolio{
-    margin-bottom: 10%;
-}
-.portfolio-container{
     display: flex;
-    justify-content: space-around;
-}
-.portfolio-text{
-    height: 400px;
-    width: 600px;
-    background-color:rgb(192, 200, 200);
-    border: 2px solid black;
-    border-radius: 8%;
-}
-.company-info{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 10%;
-
-}
-
-
-.contact-us-content{
-    border: 2px solid black;
-    background-color:rgb(226, 234, 234);
-    height: 300px;
-    width: 400px;
-    border-radius: 5%;
-}
-.social-media-content{
-    border: 2px solid black;
-    background-color:rgb(226, 234, 234);
-    border-radius: 5%;
-    height: 300px;
-    width: 600px;
-    
-}
-.hiring-content{
-    border: 2px solid black;
-    background-color:rgb(226, 234, 234);
-    border-radius: 5%;
-    height: 300px;
-    width: 400px;
-}
-.flex-center{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     /* align-content: center; */
     align-items: center;
+    /* border: 2px solid black; */
+
+    text-align: left;
+
+  }
 }
-.footer{
-    background-color: blueviolet;
-    height: 50vh;
+
+@media only screen and (max-width: 1800px) {
+  .about-company-logo img {
+    height: 400px;
+    width: 600px;
+  }
+
+  .about-company-text {
+    width: 500px;
     display: flex;
-    
+    /* align-content: center; */
     align-items: center;
+    /* border: 2px solid black; */
+
+    text-align: left;
+
+  }
+
 }
-.footer-company-name{
+
+@media only screen and (max-width: 1600px) {
+  .team-member {
+    height: 300px;
+    width: 400px;
+  }
+
+  .about-company-text {
+    width: 400px;
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+
+    text-align: left;
+
+  }
+
+  
+
+ 
+}
+
+@media only screen and (max-width: 1400px) {
+  .team-member {
+    height: 250px;
+    width: 300px;
+  }
+
+  .about-company-logo img {
+    height: 300px;
+    width: 350px;
+  }
+
+  .about-company-text {
+    padding: 10px;
+    width: 350px;
+  }
+
+  .oval-image {
+    height: 300px;
+    width: 500px;
+    
+  }
+
+  .rectangle-content {
+    height: 300px;
+    width: 500px;
+  }
+
+  
+
+}
+@media only screen and (max-width: 1230px) {
+  .navbar-container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .team-member {
+    height: 200px;
+    width: 220px;
+  }
+
+  .about-company-logo img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .about-company-text {
+    /* width: 200px; */
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    /* border: 2px solid black; */
+
+    text-align: left;
+
+  }
+  .oval-image {
+    height: 250px;
+    width: 400px;
+    
+  }
+
+  .rectangle-content {
+    height: 250px;
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width:1000px) {
+  .company-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .oval-image {
+    height: 220px;
+    width: 370px;
+    
+  }
+
+  .rectangle-content {
+    height: 220px;
+    width: 370px;
+  }
+  .navbar-buttons a{
+    font-size:medium;
+    margin: 4px;
+  }
+  .contact-us-content{
+    margin-top: 2%;
+  }
+  .hiring-content{
+    margin-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .about-company-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-company-logo {
+    /* width: 100vw; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .about-company-text {
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    /* border: 2px solid black; */
+  }
+
+ 
+ .navbar-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .oval-image{
+  margin-bottom: 10%;
+ }
+
+}
+@media only screen and (max-width: 850px) {
+  .navbar-buttons a{
+    font-size:medium;
+    margin: 2px;
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .team-member {
     height: 300px;
     width: 300px;
-    background-color:rgb(226, 234, 234);
-    border-radius: 5%;
-    margin-left: 3%;
-   
+  }
+
+  .meet-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0%;
+  }
+
+  .about-company-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .about-company-text {
+    width: 70vw;
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    /* border: 2px solid black;*/
+    padding: 20px;
+  }
+#navbar-section{
+  margin: 0;
+}
+.navbar-buttons{
+ margin: 0;
+}
+.contact-us-content  p{
+  word-break: break-all;
+}
+
+
 }
